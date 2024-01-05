@@ -36,16 +36,16 @@ console.log(cowSound, horseSound, sheepSound, pigSound, chickenSound);
 
 // 2. Bolt the horse wandered off, so just give us four animals, and let's name them bessie, dolly, babe, and little.
 
-const animalNames = 'walter bolt nguno karedi mwiru';
-const NewAnimalNames = animalNames.split(' ');
-const [animal1, , animal3, animal4, animal5] = NewAnimalNames;
+const animalNames = 'bessie bolt dolly babe little';
+const animalNamesArray = animalNames.split(' ');
+const [animal1, , animal3, animal4, animal5] = animalNamesArray;
 console.log(animal1, animal3, animal4, animal5);
 
 // 3. Little the chicken had to go back to the coop, so now we're left with three. Let's use color variables of blackAndWhite, black, and pink.
 
 const animalColors = 'blackAndWhite black pink';
-const [walter, nguno,karedi ] = animalColors.split(' ');
-console.log(walter,nguno,karedi );
+const [bessie, dolly ,babe] = animalColors.split(' ');
+console.log(bessie, dolly ,babe);
 
 // Arrays
 
