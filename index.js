@@ -29,7 +29,7 @@ const nestedMuppet = {
 
 // 1. Use destructuring to assign appropriate variables based on the sounds animals make.
 
-const animalSounds = 'moo neigh meeh grrr kokoriko';
+const animalSounds = 'moo neigh meeh oink kukuruku';
 const [cowSound, horseSound, sheepSound, pigSound, chickenSound] = animalSounds.split(' ');//use .split destruct the string
 console.log(cowSound, horseSound, sheepSound, pigSound, chickenSound);
 
